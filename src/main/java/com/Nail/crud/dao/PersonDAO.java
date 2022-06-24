@@ -4,7 +4,6 @@ import com.Nail.crud.models.Person;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.SqlOutParameter;
 import org.springframework.stereotype.Component;
 
 import java.sql.PreparedStatement;

@@ -3,13 +3,10 @@ package com.Nail.crud.util;
 import com.Nail.crud.dao.PersonDAO;
 import com.Nail.crud.models.Person;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
-import org.springframework.validation.annotation.Validated;
 
-import java.lang.annotation.Annotation;
 
 @Component
 public class PersonValidator implements Validator {
